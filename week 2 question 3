@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+struct check { int y;
+
+}r;
+
+int main() {
+    cin >> r.y;
+    cout <<r.y;
+
+    if (r.y%4==0){
+        cout << "leap year";
+        }
+    else {
+        cout << "not a leap year";
+    }
+    return 0;
+
+}
